@@ -27,7 +27,6 @@ for i in range(len(files)):
                 		g2.write('>%s\n'%m)
                 		g2.write(data[i][linker_loc+33:]+'\n')
 		data=f2.readlines()
-		m=0
 		for i in range(len(data)):
         		data[i]=data[i].replace('\n','')
         		linker_loc=data[i].find(Linker2)
